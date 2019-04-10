@@ -3,6 +3,18 @@
 <style>
 body {
 	background-color: #e5e8f5;
+    background-image:linear-gradient(to top right, blue, pink);
+}
+center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+img {  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 h1 {
 	color: #4256a6;
@@ -17,6 +29,7 @@ h1 {
 }
 h2, h3 {
 	color: #4256a6;
+    text-align: center;
 }
 p {
 	color: #444;
@@ -152,6 +165,21 @@ nav #innerNav {
 #innerNav ul li a {
 	color: black;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 </style>
 <head>
 	<title>Thomas Sijimon</title>
@@ -164,22 +192,45 @@ nav #innerNav {
 		</header>
 		<nav>
 			<ul id="externalNav">
-                <li><a href="">Home Page</a></li>
-				<li><a href="">About Me</a></li>
-				<li><a href="">Project</a></li>
-                <li><a href="">Accomplishments</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="" >Papers</p></li>
+                <li><a href="WP Home Page1.html">Home Page</a></li>
+				<li><a href="WP About Me.html">About Me</a></li>
+				<li><a href="My Projects.html">Projects</a></li>
+                <li><a href="WP My Accomplishments.html">Accomplishments</a></li>
+                <li><a href="WP Blog.html">Blog</a></li>
+                <li><a href="WP Papers.html">Papers</a></p></li>
 			</ul>
 		</nav>
 		<div id="spacer"></div>
+		<img src="banner.png" width="300" height="100" alt="Banner" class="center"></img>
 		<section id="main">
-
 			<h2>My Projects</h2>
-			<p>I am a junior OMIS student at the NIU College of Business</p>
+			<table>
+					<tr>
+					  <th>Project Name</th>
+					<th>Month Completed</th>
+					<td>Subject</td>
+					</tr>
+					<tr>
+						<td>OMIS 442 Ardagh Group Project</td>
+						<td>April 2019</td>
+						<td>Quality</td>
+					</tr>
+					<tr>
+						<td>OMIS 352 Alpha Team Project</td>
+						<td>April 2019</td>
+						<td>Project Management</td>
+					</tr>
+					<tr>
+						<td>OMIS 462 Info System Project</td>
+						<td>April 2019
+						</td>
+						<td>
+							Information Systems Analysis
+						</td>
+					</tr>
 
 		</section>
-		<footer>Thomas Sijimon &copy; 2019</footer>
+		<footer>Thomas Sijimon &copy; 2019 <a href="Z1733697@students.niu.edu">Reach me at this email!</a></footer>
 	</div>
 </body>
 </html>
